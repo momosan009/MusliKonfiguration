@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#eef9ef"/>
+  <circle cx="840" cy="280" r="170" fill="#dff3e2"/>
+  <circle cx="900" cy="330" r="90" fill="#fff1cf"/>
+  <rect x="80" y="110" width="450" height="280" rx="24" fill="#fff" opacity="0.9"/>
+  <text x="120" y="190" font-size="44" font-family="Arial" fill="#198754" font-weight="700">MyMüsli Konfigurator</text>
+  <text x="120" y="250" font-size="28" font-family="Arial" fill="#444">Basis, Zutaten und Extras</text>
+  <text x="120" y="295" font-size="28" font-family="Arial" fill="#444">individuell zusammenstellen</text>
+  <ellipse cx="830" cy="520" rx="250" ry="120" fill="#c88f4a"/>
+  <ellipse cx="830" cy="500" rx="220" ry="90" fill="#fffdf7"/>
+  <circle cx="760" cy="450" r="26" fill="#f4d35e"/>
+  <circle cx="810" cy="470" r="22" fill="#8bc34a"/>
+  <circle cx="875" cy="455" r="24" fill="#e57373"/>
+  <circle cx="930" cy="490" r="26" fill="#ffd54f"/>
+  <circle cx="990" cy="450" r="18" fill="#7cb342"/>
+  <circle cx="720" cy="505" r="20" fill="#6d4c41"/>
+</svg>

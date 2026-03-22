@@ -1,0 +1,112 @@
+body {
+    background: #f7f4ee;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #fffaf2 0%, #eef9ef 100%);
+    padding: 4rem 0;
+}
+
+.feature-card,
+.option-card,
+.price-box,
+.bowl-preview {
+    background: #fff;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.feature-card {
+    padding: 1.25rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.06);
+}
+
+.option-card {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.option-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+.step {
+    display: none;
+    animation: fadeIn 0.25s ease;
+}
+
+.step.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.bowl-preview {
+    min-height: 220px;
+    background: radial-gradient(circle at top, #fff 0%, #faf1dd 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.bowl-inner {
+    width: 100%;
+    max-width: 260px;
+    min-height: 150px;
+    background: #fffefb;
+    border: 10px solid #d9b47a;
+    border-bottom-width: 18px;
+    border-radius: 0 0 120px 120px;
+    padding: 1rem;
+}
+
+.preview-label {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.preview-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    justify-content: center;
+}
+
+.tag {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.55rem;
+    border-radius: 999px;
+}
+
+.tag-base { background: #dff3e2; }
+.tag-ingredient { background: #fff1cf; }
+.tag-extra { background: #f7d7ff; }
+
+.price-box {
+    padding: 0.9rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sticky-summary {
+    position: sticky;
+    top: 92px;
+}
+
+.filter-btn.active {
+    background: #198754;
+    color: #fff;
+}
+
+@media (max-width: 991.98px) {
+    .sticky-summary {
+        position: static;
+    }
+}
